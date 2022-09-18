@@ -1,7 +1,7 @@
 # ClockFace-font
 
-Icon font for displaying the time
+Clock face font for displaying time
 
-WIP.
+# Preview at @ https://ocodo.github.io/ClockFace-font/
 
-[Download the prototype](./clock-face-font.ttf)
+[Download the prototype](clock-face-regular/ClockFace.ttf)
