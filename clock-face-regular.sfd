@@ -5496,6 +5496,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,239
  440 82 440 82 430 82 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_00.40
@@ -5678,6 +5679,7 @@ SplineSet
  360 175 l 2,240,241
  352 170 352 170 342 170 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_00.45
@@ -5751,6 +5753,7 @@ SplineSet
  556 290 l 1,70,-1
  310 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_00.50
@@ -5939,6 +5942,7 @@ SplineSet
  560 291 l 1,249,250
  555 290 555 290 550 290 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_00.55
@@ -6127,6 +6131,7 @@ SplineSet
  560 291 l 1,247,248
  555 290 555 290 550 290 c 256,211,212
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.00
@@ -6352,6 +6357,7 @@ SplineSet
  559 291 559 291 556 290 c 2,310,-1
  550 290 l 1,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.05
@@ -6563,6 +6569,7 @@ SplineSet
  552 290 l 1,296,-1
  550 290 l 1,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.10
@@ -6873,6 +6880,7 @@ SplineSet
  552 290 l 1,420,-1
  550 290 l 1,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_01.15
@@ -7092,6 +7100,7 @@ SplineSet
  804 290 804 290 790 290 c 2,301,-1
  550 290 l 1,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.20
@@ -7303,6 +7312,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,297
  768 170 768 170 758 170 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.25
@@ -7607,6 +7617,7 @@ SplineSet
  701 94 701 94 688 87 c 0,413,414
  680 82 680 82 670 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_01.30
@@ -7820,6 +7831,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,294
  564 50 564 50 550 50 c 256,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.35
@@ -8024,6 +8036,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,288
  440 82 440 82 430 82 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.40
@@ -8328,6 +8341,7 @@ SplineSet
  360 175 l 2,414,415
  352 170 352 170 342 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_01.45
@@ -8546,6 +8560,7 @@ SplineSet
  559 291 559 291 556 290 c 2,301,-1
  310 290 l 2,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.50
@@ -8758,6 +8773,7 @@ SplineSet
  552 290 l 1,297,-1
  550 290 l 1,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_01.55
@@ -9069,6 +9085,7 @@ SplineSet
  552 290 l 1,422,-1
  550 290 l 1,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_02.00
@@ -9290,6 +9307,7 @@ SplineSet
  552 290 l 1,303,-1
  550 290 l 2,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.05
@@ -9601,6 +9619,7 @@ SplineSet
  564 293 564 293 560 291 c 2,421,-1
  550 290 l 2,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_02.10
@@ -9817,6 +9836,7 @@ SplineSet
  564 293 564 293 560 291 c 2,294,-1
  550 290 l 2,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.15
@@ -10037,6 +10057,7 @@ SplineSet
  804 290 804 290 790 290 c 2,301,-1
  550 290 l 2,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.20
@@ -10346,6 +10367,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,420
  768 170 768 170 758 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_02.25
@@ -10563,6 +10585,7 @@ SplineSet
  701 94 701 94 688 87 c 0,295,296
  680 82 680 82 670 82 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.30
@@ -10776,6 +10799,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,293
  564 50 564 50 550 50 c 256,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.35
@@ -11079,6 +11103,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,413
  440 82 440 82 430 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_02.40
@@ -11288,6 +11313,7 @@ SplineSet
  360 175 l 2,285,286
  352 170 352 170 342 170 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.45
@@ -11502,6 +11528,7 @@ SplineSet
  552 290 l 1,294,-1
  310 290 l 2,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_02.50
@@ -11806,6 +11833,7 @@ SplineSet
  564 293 564 293 560 291 c 2,413,-1
  550 290 l 2,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_02.55
@@ -12022,6 +12050,7 @@ SplineSet
  564 293 564 293 560 291 c 2,294,-1
  550 290 l 2,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_03.00
@@ -12080,6 +12109,7 @@ SplineSet
  720 290 720 290 706 290 c 2,57,-1
  550 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.05
@@ -12262,6 +12292,7 @@ SplineSet
  720 290 720 290 706 290 c 2,242,-1
  550 290 l 2,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.10
@@ -12440,6 +12471,7 @@ SplineSet
  720 290 720 290 706 290 c 2,237,-1
  550 290 l 2,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.15
@@ -12498,6 +12530,7 @@ SplineSet
  804 290 804 290 790 290 c 2,57,-1
  550 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.20
@@ -12682,6 +12715,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,246
  768 170 768 170 758 170 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.25
@@ -12860,6 +12894,7 @@ SplineSet
  701 94 701 94 688 87 c 0,238,239
  680 82 680 82 670 82 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.30
@@ -12918,6 +12953,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,58
  564 50 564 50 550 50 c 256,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.35
@@ -13095,6 +13131,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,238
  440 82 440 82 430 82 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.40
@@ -13266,6 +13303,7 @@ SplineSet
  360 175 l 2,230,231
  352 170 352 170 342 170 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.45
@@ -13316,6 +13354,7 @@ SplineSet
  720 290 720 290 706 290 c 2,47,-1
  310 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.50
@@ -13491,6 +13530,7 @@ SplineSet
  720 290 720 290 706 290 c 2,234,-1
  550 290 l 2,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_03.55
@@ -13662,6 +13702,7 @@ SplineSet
  720 290 720 290 706 290 c 2,229,-1
  550 290 l 2,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_04.00
@@ -13877,6 +13918,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,297
  693 211 693 211 682 212 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.05
@@ -14088,6 +14130,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,297
  693 211 693 211 682 212 c 0,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.10
@@ -14396,6 +14439,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,419
  693 211 693 211 682 212 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_04.15
@@ -14616,6 +14660,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,303
  693 211 693 211 682 212 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.20
@@ -14826,6 +14871,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,296
  768 170 768 170 758 170 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.25
@@ -15135,6 +15181,7 @@ SplineSet
  701 94 701 94 688 87 c 0,419,420
  680 82 680 82 670 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_04.30
@@ -15353,6 +15400,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,300
  564 50 564 50 550 50 c 256,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.35
@@ -15564,6 +15612,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,297
  440 82 440 82 430 82 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.40
@@ -15868,6 +15917,7 @@ SplineSet
  360 175 l 2,413,414
  352 170 352 170 342 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_04.45
@@ -16082,6 +16132,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,296
  693 211 693 211 682 212 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.50
@@ -16286,6 +16337,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,288
  693 211 693 211 682 212 c 0,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_04.55
@@ -16589,6 +16641,7 @@ SplineSet
  712 220 712 220 702.5 215.5 c 128,-1,413
  693 211 693 211 682 212 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_05.00
@@ -16802,6 +16855,7 @@ SplineSet
  659 166 659 166 646 159 c 0,293,294
  638 156 638 156 630 156 c 0,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.05
@@ -17107,6 +17161,7 @@ SplineSet
  659 166 659 166 646 159 c 0,414,415
  638 156 638 156 630 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_05.10
@@ -17324,6 +17379,7 @@ SplineSet
  659 166 659 166 646 159 c 0,295,296
  638 156 638 156 630 156 c 0,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.15
@@ -17543,6 +17599,7 @@ SplineSet
  659 166 659 166 646 159 c 0,300,301
  638 156 638 156 630 156 c 0,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.20
@@ -17854,6 +17911,7 @@ SplineSet
  659 166 659 166 646 159 c 0,421,422
  638 156 638 156 630 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_05.25
@@ -18071,6 +18129,7 @@ SplineSet
  701 94 701 94 688 87 c 0,295,296
  680 82 680 82 670 82 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.30
@@ -18290,6 +18349,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,300
  564 50 564 50 550 50 c 256,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.35
@@ -18601,6 +18661,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,423
  440 82 440 82 430 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_05.40
@@ -18818,6 +18879,7 @@ SplineSet
  659 166 659 166 646 159 c 0,295,296
  638 156 638 156 630 156 c 0,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.45
@@ -19032,6 +19094,7 @@ SplineSet
  659 166 659 166 646 159 c 0,294,295
  638 156 638 156 630 156 c 0,275,276
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_05.50
@@ -19336,6 +19399,7 @@ SplineSet
  659 166 659 166 646 159 c 0,414,415
  638 156 638 156 630 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_05.55
@@ -19545,6 +19609,7 @@ SplineSet
  659 166 659 166 646 159 c 0,285,286
  638 156 638 156 630 156 c 0,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_06.00
@@ -19595,6 +19660,7 @@ SplineSet
  514 156 514 156 514 170 c 2,47,-1
  514 566 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.05
@@ -19770,6 +19836,7 @@ SplineSet
  586 156 586 156 575 145 c 128,-1,235
  564 134 564 134 550 134 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.10
@@ -19941,6 +20008,7 @@ SplineSet
  586 156 586 156 575 145 c 128,-1,230
  564 134 564 134 550 134 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.15
@@ -19999,6 +20067,7 @@ SplineSet
  586 156 586 156 575 145 c 128,-1,58
  564 134 564 134 550 134 c 256,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.20
@@ -20181,6 +20250,7 @@ SplineSet
  586 156 586 156 575 145 c 128,-1,243
  564 134 564 134 550 134 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.25
@@ -20360,6 +20430,7 @@ SplineSet
  701 94 701 94 688 87 c 0,239,240
  680 82 680 82 670 82 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.30
@@ -20418,6 +20489,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,58
  564 50 564 50 550 50 c 256,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.35
@@ -20603,6 +20675,7 @@ SplineSet
  540 361 l 1,247,248
  545 362 545 362 550 362 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.40
@@ -20780,6 +20853,7 @@ SplineSet
  540 361 l 1,237,238
  545 362 545 362 550 362 c 256,211,212
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_06.45
@@ -20838,6 +20912,7 @@ SplineSet
  296 362 296 362 310 362 c 2,57,-1
  550 362 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.50
@@ -21015,6 +21090,7 @@ SplineSet
  316 472 316 472 324 477 c 128,-1,238
  332 482 332 482 342 482 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_06.55
@@ -21186,6 +21262,7 @@ SplineSet
  399 558 399 558 412 565 c 0,230,231
  420 570 420 570 430 570 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_07.00
@@ -21404,6 +21481,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,299
  480 155 480 155 470 156 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.05
@@ -21608,6 +21686,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,288
  480 155 480 155 470 156 c 0,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.10
@@ -21911,6 +21990,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,413
  480 155 480 155 470 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_07.15
@@ -22126,6 +22206,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,297
  480 155 480 155 470 156 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.20
@@ -22337,6 +22418,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,297
  480 155 480 155 470 156 c 0,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.25
@@ -22646,6 +22728,7 @@ SplineSet
  701 94 701 94 688 87 c 0,420,421
  680 82 680 82 670 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_07.30
@@ -22868,6 +22951,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,306
  564 50 564 50 550 50 c 256,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.35
@@ -23093,6 +23177,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,310
  440 82 440 82 430 82 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.40
@@ -23414,6 +23499,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,432
  480 155 480 155 470 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_07.45
@@ -23641,6 +23727,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,311
  480 155 480 155 470 156 c 0,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.50
@@ -23866,6 +23953,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,309
  480 155 480 155 470 156 c 0,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_07.55
@@ -24180,6 +24268,7 @@ SplineSet
  498 164 498 164 489 159.5 c 128,-1,423
  480 155 480 155 470 156 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_08.00
@@ -24406,6 +24495,7 @@ SplineSet
  432 217 l 2,305,306
  425 213 425 213 418 212 c 0,276,277
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.05
@@ -24710,6 +24800,7 @@ SplineSet
  432 217 l 2,414,415
  425 213 425 213 418 212 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_08.10
@@ -24919,6 +25010,7 @@ SplineSet
  432 217 l 2,285,286
  425 213 425 213 418 212 c 0,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.15
@@ -25133,6 +25225,7 @@ SplineSet
  432 217 l 2,294,295
  425 213 425 213 418 212 c 0,276,277
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.20
@@ -25438,6 +25531,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,415
  768 170 768 170 758 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_08.25
@@ -25655,6 +25749,7 @@ SplineSet
  701 94 701 94 688 87 c 0,295,296
  680 82 680 82 670 82 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.30
@@ -25875,6 +25970,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,302
  564 50 564 50 550 50 c 256,276,277
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.35
@@ -26198,6 +26294,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,435
  440 82 440 82 430 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_08.40
@@ -26431,6 +26528,7 @@ SplineSet
  360 175 l 2,310,311
  352 170 352 170 342 170 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.45
@@ -26664,6 +26762,7 @@ SplineSet
  432 217 l 2,314,315
  425 213 425 213 418 212 c 0,276,277
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_08.50
@@ -26986,6 +27085,7 @@ SplineSet
  432 217 l 2,434,435
  425 213 425 213 418 212 c 0,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_08.55
@@ -27218,6 +27318,7 @@ SplineSet
  432 217 l 2,308,309
  425 213 425 213 418 212 c 0,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_09.00
@@ -27291,6 +27392,7 @@ SplineSet
  556 290 l 1,70,-1
  394 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.05
@@ -27469,6 +27571,7 @@ SplineSet
  555 290 555 290 550 290 c 2,239,-1
  394 290 l 2,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.10
@@ -27639,6 +27742,7 @@ SplineSet
  555 290 555 290 550 290 c 2,229,-1
  394 290 l 2,211,212
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_09.15
@@ -27689,6 +27793,7 @@ SplineSet
  804 290 804 290 790 290 c 2,47,-1
  394 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.20
@@ -27865,6 +27970,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,237
  768 170 768 170 758 170 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.25
@@ -28037,6 +28143,7 @@ SplineSet
  701 94 701 94 688 87 c 0,231,232
  680 82 680 82 670 82 c 256,211,212
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.30
@@ -28095,6 +28202,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,58
  564 50 564 50 550 50 c 256,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.35
@@ -28287,6 +28395,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,256
  440 82 440 82 430 82 c 256,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.40
@@ -28479,6 +28588,7 @@ SplineSet
  360 175 l 2,253,254
  352 170 352 170 342 170 c 256,211,212
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_09.45
@@ -28553,6 +28663,7 @@ SplineSet
  556 290 l 1,72,-1
  310 290 l 2,36,37
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.50
@@ -28747,6 +28858,7 @@ SplineSet
  555 290 555 290 550 290 c 2,258,-1
  394 290 l 2,217,218
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_09.55
@@ -28936,6 +29048,7 @@ SplineSet
  555 290 555 290 550 290 c 2,250,-1
  394 290 l 2,211,212
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.00
@@ -29165,6 +29278,7 @@ SplineSet
  559 291 559 291 556 290 c 2,314,-1
  550 290 l 1,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.05
@@ -29377,6 +29491,7 @@ SplineSet
  552 290 l 1,297,-1
  550 290 l 1,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.10
@@ -29682,6 +29797,7 @@ SplineSet
  552 290 l 1,414,-1
  550 290 l 1,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_10.15
@@ -29896,6 +30012,7 @@ SplineSet
  804 290 804 290 790 290 c 2,295,-1
  550 290 l 1,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.20
@@ -30100,6 +30217,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,288
  768 170 768 170 758 170 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.25
@@ -30404,6 +30522,7 @@ SplineSet
  701 94 701 94 688 87 c 0,414,415
  680 82 680 82 670 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_10.30
@@ -30621,6 +30740,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,300
  564 50 564 50 550 50 c 256,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.35
@@ -30846,6 +30966,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,309
  440 82 440 82 430 82 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.40
@@ -31168,6 +31289,7 @@ SplineSet
  360 175 l 2,434,435
  352 170 352 170 342 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_10.45
@@ -31400,6 +31522,7 @@ SplineSet
  559 291 559 291 556 290 c 2,318,-1
  310 290 l 2,277,278
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.50
@@ -31627,6 +31750,7 @@ SplineSet
  552 290 l 1,311,-1
  550 290 l 1,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_10.55
@@ -31950,6 +32074,7 @@ SplineSet
  552 290 l 1,434,-1
  550 290 l 1,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_11.00
@@ -32183,6 +32308,7 @@ SplineSet
  552 290 l 1,314,-1
  550 290 l 2,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.05
@@ -32493,6 +32619,7 @@ SplineSet
  564 292 564 292 560 291 c 2,421,-1
  550 290 l 2,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_11.10
@@ -32709,6 +32836,7 @@ SplineSet
  564 293 564 293 560 291 c 2,294,-1
  550 290 l 2,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.15
@@ -32923,6 +33051,7 @@ SplineSet
  804 290 804 290 790 290 c 2,293,-1
  550 290 l 2,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.20
@@ -33226,6 +33355,7 @@ SplineSet
  784 180 784 180 776 175 c 128,-1,413
  768 170 768 170 758 170 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_11.25
@@ -33435,6 +33565,7 @@ SplineSet
  701 94 701 94 688 87 c 0,285,286
  680 82 680 82 670 82 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.30
@@ -33648,6 +33779,7 @@ SplineSet
  586 72 586 72 575 61 c 128,-1,293
  564 50 564 50 550 50 c 256,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.35
@@ -33962,6 +34094,7 @@ SplineSet
  456 92 456 92 448 87 c 128,-1,423
  440 82 440 82 430 82 c 256,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_11.40
@@ -34194,6 +34327,7 @@ SplineSet
  360 175 l 2,308,309
  352 170 352 170 342 170 c 256,272,273
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.45
@@ -34426,6 +34560,7 @@ SplineSet
  552 290 l 1,313,-1
  310 290 l 2,274,275
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: clock_11.50
@@ -34747,6 +34882,7 @@ SplineSet
  564 292 564 292 560 291 c 2,431,-1
  550 290 l 2,394,395
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: clock_11.55
@@ -34979,6 +35115,7 @@ SplineSet
  564 293 564 293 560 291 c 2,309,-1
  550 290 l 2,272,273
 EndSplineSet
+Validated: 5
 EndChar
 EndChars
 EndSplineFont
