@@ -1,0 +1,4 @@
+<circle id="%s"
+        r="%i"
+        style="fill:#FFF;stroke:none"
+        cx="%.3f" cy="%.3f"/>
