@@ -88,8 +88,12 @@ String filename/path prefix"
                         hours)))
           (name-prefix    (or name-prefix (read-string "Name prefix: "))))
       (--each-indexed time-paths
-         (f-write-text (format clock-template it) 'utf-8
-                       (format "%s%s.svg" name-prefix
-                               (index-to-hour-minute it-index)))))))
+        (let ((output-filename (format
+                                "%s%s.svg"
+                                name-prefix
+                                (index-to-hour-minute it-index))))
+         (message "Writing: %s" output-filename)
+         (f-write-text (format clock-template it) 'utf-8 output-filename))))))
+                       
 
 ;;; generate-clock-hands.svg.el ends here
