@@ -45,7 +45,6 @@ Using HOUR-RADIUS & MINUTE-RADIUS."
             (car minute-point)
             (cdr minute-point))))
 
-
 (defun generate-clock-faces (&optional options)
   "Generate set of clock face svg images using OPTIONS.
 
@@ -72,6 +71,7 @@ String filename/path prefix"
               hour-radius
               minute-radius
               name-prefix)
+             options
    (let* ((clock-template (f-read clock-template-filename))
           (hands-template (f-read hands-template-filename))
           (hours (number-sequence 0 11))
@@ -86,10 +86,10 @@ String filename/path prefix"
                                                 hands-template))
                            minutes))
                         hours)))
-          (name-prefix    (read-string "Name prefix: ")))
+          (name-prefix    (or name-prefix (read-string "Name prefix: "))))
       (--each-indexed time-paths
          (f-write-text (format clock-template it) 'utf-8
-                       (format "%s-%s.svg" name-prefix
+                       (format "%s%s.svg" name-prefix
                                (index-to-hour-minute it-index)))))))
 
 ;;; generate-clock-hands.svg.el ends here
