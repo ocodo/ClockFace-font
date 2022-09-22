@@ -9,17 +9,17 @@
 
 (defun point-on-circle-at-angle-radius (radius angle)
  "Return a cons of X,Y at RADIUS, ANGLE."
- (cons (* radius (cos angle))
-       (* radius (sin angle))))
+ (cons (* radius (cos (degrees-to-radians angle)))
+       (* radius (sin (degrees-to-radians angle)))))
 
-(let* ((template (f-read "svg.template"))
-       (radius 200)
+(let* ((template (f-read (read-file-name "SVG Template: ")))
+       (radius (read-number "Radius: "))
        (angles (number-sequence 30 360 30))
        (coords (--map (point-on-circle-at-angle-radius radius it) angles))
        (out    (s-join "\n" (-flatten
                              (--map (let* ((x  (car it))
                                            (y  (cdr it))
                                            (id (format "%i:%i" x y)))
-                                      (format template id 2 x y))
+                                      (format template id x y))
                                   coords)))))
-   (f-write-text out 'utf-8 "out.svg"))
+   (f-write-text out 'utf-8 (read-file-name "Output to: ")))

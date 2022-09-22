@@ -61,41 +61,59 @@
         rx="180"
         ry="180"
         inkscape:label="rect-frame" />
-    <g
-        id="minute-guide-group"
-        inkscape:label="minute-guide-group">
-      <path
-          style="fill:none;stroke:#000000;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-          d="M 500,500 L 500,230"
-          id="minute-hand"
-          sodipodi:nodetypes="cc" />
-      <circle
-          style="opacity:0.25;fill:none;stroke:#FF7700;stroke-width:20"
-          id="minute-alignment-circle"
-          cx="500"
-          cy="500"
-          r="280"
-          inkscape:label="minute-alignment-circle" />
-    </g>
-    <g
-        id="hour-guide-group"
-        inkscape:label="hour-guide-group">
-      <path
-          style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-          d="M 500,500 l 0,-180"
-          id="hour-hand"
-          sodipodi:nodetypes="cc"
-          inkscape:label="hour-hand" />
-      <circle
-          style="opacity:0.3;fill:none;stroke:#000000;stroke-width:20"
-          id="circle2675"
-          cx="500"
-          cy="500"
-          r="200"
-          inkscape:label="hour-alignment-circle" />
-    </g>
   </g>
-  <g transform="translate(500,500)">
+  <g transform="translate(0,0)">
+<!-- ... -->
+
+<path id="233:134" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 233.827,135.000"/>
+
+<path id="135:233" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 135.000,233.827"/>
+
+<path id="0:270" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 0.000,270.000"/>
+
+<path id="-134:233" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -135.000,233.827"/>
+
+<path id="-233:134" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -233.827,135.000"/>
+
+<path id="-270:0" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -270.000,0.000"/>
+
+<path id="-233:-135" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -233.827,-135.000"/>
+
+<path id="-135:-233" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -135.000,-233.827"/>
+
+<path id="0:-270" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -0.000,-270.000"/>
+
+<path id="135:-233" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 135.000,-233.827"/>
+
+<path id="233:-135" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 233.827,-135.000"/>
+
+<path id="270:0" style="fill:none;stroke:#FF7700;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 270.000,-0.000"/>
+
+<!-- ... -->
+
+<path id="164:94" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 164.545,95.000"/>
+
+<path id="95:164" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 95.000,164.545"/>
+
+<path id="0:190" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 0.000,190.000"/>
+
+<path id="-94:164" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -95.000,164.545"/>
+
+<path id="-164:94" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -164.545,95.000"/>
+
+<path id="-190:0" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -190.000,0.000"/>
+
+<path id="-164:-95" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -164.545,-95.000"/>
+
+<path id="-95:-164" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -95.000,-164.545"/>
+
+<path id="0:-190" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l -0.000,-190.000"/>
+
+<path id="95:-164" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 95.000,-164.545"/>
+
+<path id="164:-95" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 164.545,-95.000"/>
+
+<path id="190:0" style="fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-linejoin:round" d="M 500,500 l 190.000,-0.000"/>
 
   </g>
 </svg>
