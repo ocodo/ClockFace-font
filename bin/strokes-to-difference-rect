@@ -1,0 +1,21 @@
+#!/bin/sh
+
+alias inkscape=/Applications/Inkscape.app/Contents/MacOS/inkscape
+
+# For solid face
+
+for a in "$@";
+do
+    inkscape --actions="select-all:groups;
+                        object-stroke-to-path;
+                        select-clear;
+                        select-by-id:rect-frame;
+                        selection-ungroup;
+                        path-union;
+                        selection-bottom;
+                        select-all:all;
+                        selection-ungroup;
+                        selection-ungroup;
+                        path-difference;
+                        export-do" "$a"
+done

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+alias inkscape=/Applications/Inkscape.app/Contents/MacOS/inkscape
+
+for a in "$@";
+do
+    inkscape --actions="select-all:groups;object-stroke-to-path;path-combine;export-do" $a
+done

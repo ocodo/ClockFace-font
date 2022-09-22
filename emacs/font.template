@@ -1,0 +1,12 @@
+<font id="ClockFaceFont" horiz-adv-x="1000">
+  <font-face font-family="ClockFace" font-weight="normal" font-style="normal"
+             units-per-em="1000" cap-height="600" x-height="400"
+             ascent="700" descent="300"
+             alphabetic="0" mathematical="350" ideographic="400" hanging="500">
+    <font-face-src>
+      <font-face-name name="ClockFace %s"/>
+    </font-face-src>
+  </font-face>
+  <missing-glyph><path d="M0,0h200v200h-200z"/></missing-glyph>
+  %s
+</font>
