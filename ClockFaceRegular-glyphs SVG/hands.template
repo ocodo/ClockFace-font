@@ -1,6 +1,0 @@
-<path id="clock_%02i_%02i" style="fill:none;
-                                  stroke:#FFFFFF88;
-                                  stroke-width:60;
-                                  stroke-linecap:round;
-                                  stroke-linejoin:round"
-  d="M %.3f,%.3f L 0,0 l %.3f,%.3f"/>

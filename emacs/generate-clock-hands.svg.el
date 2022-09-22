@@ -22,6 +22,13 @@
 0,360 is at 00:00"
   (* 30 (% (/ minute 5) 12)))
 
+(defun index-to-hour-minute (index)
+  "INDEX 0..144 as hour minute."
+  (let ((index (% index 144))
+        (hour  (/ index 12))
+        (minute (* 5 (% index 12))))
+    (format "clock_%02i_%02i" hour minute)))
+
 (defun hands-at-time-svg (hour hour-radius minute minute-radius svg-template)
   "Draw hands at HOUR & MINUTE with SVG-TEMPLATE.
 Using HOUR-RADIUS & MINUTE-RADIUS."
@@ -38,24 +45,34 @@ Using HOUR-RADIUS & MINUTE-RADIUS."
             (car minute-point)
             (cdr minute-point))))
 
-(let* ((template (f-read (read-file-name "SVG template: ")))
-       (hour-radius (read-number "Hour hand radius: "))
-       (minute-radius (read-number "Minute hand radius: "))
+(let* ((clock-template (f-read (read-file-name
+                                "Clock template: "
+                                "../ClockFaceRegular-glyphs/"
+                                "rotation-sheet.svg.template")))
+       (hands-template (f-read (read-file-name
+                                "Hands template: "
+                                "../ClockFaceRegular-glyphs/"
+                                "hands.template")))
+       (hour-radius (read-number
+                     "Hour hand radius: "
+                     180))
+       (minute-radius (read-number
+                       "Minute hand radius: "
+                       260))
        (hours (number-sequence 0 11))
        (minutes (number-sequence 0 55 5))
-       (out (s-join "\n"
-               (-flatten
-                (mapcar
-                  (lambda (hour)
+       (time-paths (-flatten
                     (mapcar
-                       (lambda (minute)
-                         (hands-at-time-svg hour hour-radius
-                                            minute minute-radius
-                                            template))
-                     minutes))
-                 hours)))))
-  (f-write-text out 'utf-8
-                (read-file-name
-                 "Output to: " default-directory "test")))
+                     (lambda (hour)
+                       (mapcar
+                        (lambda (minute)
+                          (hands-at-time-svg hour hour-radius
+                                             minute minute-radius
+                                             hands-template))
+                        minutes))
+                     hours)))
+       (name-prefix    (read-string "Name prefix: ")))
+   (--each-indexed time-paths
+      (f-write-text (format clock-template it) 'utf-8 (format "%s-%s.svg" name-prefix (index-to-hour-minute it-index)))))
 
 ;;; generate-clock-hands.svg.el ends here
