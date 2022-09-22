@@ -45,10 +45,10 @@ Using HOUR-RADIUS & MINUTE-RADIUS."
             (car minute-point)
             (cdr minute-point))))
 
-(defun generate-clock-faces (&optional options)
+(defun generate-clock-faces (options)
   "Generate set of clock face svg images using OPTIONS.
 
-OPTIONS plist:
+OPTIONS plist: (all required)
 
 :clock-template-filename - a template filename
 should be a svg clock face,
@@ -95,5 +95,21 @@ String filename/path prefix"
          (message "Writing: %s" output-filename)
          (f-write-text (format clock-template it) 'utf-8 output-filename))))))
                        
+
+(defun generate-clock-font (options)
+ "Generate a SVG clock font from outlines, using OPTIONS.
+
+OPTIONS all required
+
+:outlines-filename-regexp
+:font-template-filename
+:font-glyph-template-filename
+:output-filename"
+  (plist-bind (outlines-filename-regexp
+               font-template-filename
+               font-glyph-template-filename
+               output-filename)
+              options))
+
 
 ;;; generate-clock-hands.svg.el ends here

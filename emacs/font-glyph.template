@@ -1,1 +1,1 @@
-<glyph glyph-name="clock_%02i_%02i" unicode="&#x%04X;" d="%s"/>
+<glyph glyph-name="%s" unicode="&#x%04X;" d="%s"/>
