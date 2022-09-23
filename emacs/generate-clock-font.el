@@ -97,19 +97,47 @@ String filename/path prefix"
                        
 
 (defun generate-clock-font (options)
- "Generate a SVG clock font from outlines, using OPTIONS.
+ "Generate a clock font from glyphs.
 
 OPTIONS all required
 
-:outlines-filename-regexp
+:font-name-suffix
+Font name suffix, e.g.
+Regular, Solid, Rect, RectSolid
+
+:glyph-svg-directory
+Directory containing SVG Glyphs
+
 :font-template-filename
+Font template file
+
 :font-glyph-template-filename
-:output-filename"
-  (plist-bind (outlines-filename-regexp
+Font glyph template file
+
+:output-filename
+Font file to create"
+  (plist-bind (font-name-suffix
+               sglyph-svg-directory
                font-template-filename
                font-glyph-template-filename
                output-filename)
-              options))
+              options
+    (let* ((glyph-filenames (directory-files glyph-svg-directory t ".*svg"))
+           (font-template (f-read-text font-template-filename))
+           (glyph-template (f-read-text font-glyph-template-filename))
+           (glyphs (s-join
+                    "\n"
+                    (-map-indexed
+                     (lambda (index glyph-svg-filename)
+                        (let ((glyph-svg (f-read-text glyph-svg-filename))
+                              (glyph-name (file-name-base glyph-svg-filename))
+                              (glyph-path (s-match " d=\"\\(.*?\\)\"" glyph-svg)))
+                          (format glyph-template
+                                  glyph-name
+                                  (+ #xe800 index)
+                                  glyph-path)))
+                     glyph-filenames)))
+           (font (format font-template font-name-suffix glyphs)))
+        (f-write-text font 'utf-8 output-filename))))
 
-
-;;; generate-clock-hands.svg.el ends here
+;;; generate-clock-font.el ends here
