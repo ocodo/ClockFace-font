@@ -1,5 +1,11 @@
-;;; 30-degree-points.svg --- not a package.
+;;; Generate-clock-font --- Create SVG clock fonts
 ;;; Commentary:
+;;
+;; Note this package is to be used on a Mac with Inkscape installed at
+;; /Applications/Inkscape.app
+;;
+;; It is single purpose and intended for internal use only.
+;; (it also depends on custom functions which are not provided here.)
 ;;
 ;;; Code:
 
@@ -50,12 +56,12 @@ Using HOUR-RADIUS & MINUTE-RADIUS."
 
 OPTIONS plist: (all required)
 
-:clock-template-filename - a template filename
-should be a svg clock face,
-with a printf string slot to insert hands
+:clock-face-template-filename - template filename
+Should be an svg clock face,
+with a printf string slot to insert hands.
 
-:hands-template-filename - a template filename
-should ba a svg path template,
+:hands-template-filename - template filename
+Should be an svg path template,
 with printf endpoints for minute hand and hour hand.
 
 :hour-radius
@@ -66,13 +72,13 @@ Integer for hour minute length
 
 :name-prefix
 String filename/path prefix"
- (plist-bind (clock-template-filename
+ (plist-bind (clock-face-template-filename
               hands-template-filename
               hour-radius
               minute-radius
               name-prefix)
              options
-   (let* ((clock-template (f-read clock-template-filename))
+   (let* ((clock-template (f-read clock-face-template-filename))
           (hands-template (f-read hands-template-filename))
           (hours (number-sequence 0 11))
           (minutes (number-sequence 0 55 5))
@@ -94,7 +100,13 @@ String filename/path prefix"
                                 (index-to-hour-minute it-index))))
          (message "Writing: %s" output-filename)
          (f-write-text (format clock-template it) 'utf-8 output-filename))))))
-                       
+
+(defun strokes-to-combined-path (svg-file output-file)
+  "Use inkscape to convert strokes in SVG-FILE to a single combined path OUTPUT-FILE."
+  (let ((inkscape-actions
+         "--actions=\"select-all:groups;object-stroke-to-path;path-combine;export-do\"")
+        (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))))
+
 
 (defun generate-clock-font (options)
  "Generate a clock font from glyphs.
