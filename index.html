@@ -149,11 +149,15 @@
              -webkit-font-smoothing: antialiased;
              -moz-osx-font-smoothing: grayscale;
          }
+         #pagetime {
+             font-size: 100%;
+         }
         </style>
+        <script src="icontime.js"></script>
     </head>
-    <body>
+    <body onload="startIconTime()">
         <div class="container header">
-            <h1 class="chroma-crawl">ClockFace</h1>
+            <h1 class="chroma-crawl">ClockFace <span id="pagetime" class="solid icon">&#xe800</span></h1>
             <div class="subhead chroma-crawl">Clock icons for displaying time</div>
             <div class="tech-info">12 Hours // Every 5th Minute // Unicode series &amp;#xE800...&amp;#xE88F</div>
             <div class="tech-info"><a href="https://github.com/ocodo/ClockFace-font">Github Repository: ocodo/ClockFace-font</a></div>
