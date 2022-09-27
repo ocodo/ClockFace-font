@@ -3,9 +3,14 @@ function setIconTime() {
   document.getElementById("pagetime").innerHTML = timeNowToUnicode()
 }
 
+const roundTo = roundTo => x => Math.round(x / roundTo) * roundTo; 
+const roundTo5Minutes roundTo(300000)
+
 function startIconTime() {
   setIconTime()
-  setInterval(setIconTime, 1000)
+  let now = new Date()
+  let nearest = roundTo5Minutes(now)
+  setTimeout(i => setInterval(setIconTime, 300000), nearest)
 }
 
 function timeNowToUnicode() {
@@ -16,7 +21,7 @@ function timeNowToUnicode() {
   let offset = Math.floor((h * 12) + ((m / 60) * 12))
   let unicode = 0xE800 + offset
 
-  // debug loggin
+  // debug uncomment
   // console.log(` H: ${h}\n M: ${m}\n Offset: ${offset}\n Unicode: ${unicode}\n`)
 
   return `&#${unicode}`
