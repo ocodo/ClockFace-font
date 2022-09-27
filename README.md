@@ -4,6 +4,6 @@
 
 Display time with an icon (5 min intervals on a 12hr clock face.)
 
-#### [Download the TrueType Prototype](ClockFaceFonts.zip)
+#### [Download the complete set](ClockFaceFonts.zip)
 
 [//ocodo.github.io/ClockFace-font/](//ocodo.github.io/ClockFace-font/)
