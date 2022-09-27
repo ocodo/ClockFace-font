@@ -1,0 +1,51 @@
+#!/bin/bash
+
+export FONTNAME=$4
+export FONTVERSION="001.000"
+export FONTDATE="2022-09-26"
+export COPYRIGHT="JLMilkins / Ocodo"
+export ASCENT=750
+export DESCENT=250
+export EM=1000
+
+export GLYPH_TEMPLATE='"0x${UNICODE_HEX}": { "src": "${SVG_FILE}", "width": ${WIDTH} },'
+
+export WIDTH=$2
+export UNICODE=$(printf "%i" $3)
+export GLYPHS=$(for SVG_FILE in $1/*svg
+         do
+         export SVG_FILE
+         export UNICODE_HEX=$(printf "%04X" $UNICODE)
+         envsubst <<<$GLYPH_TEMPLATE
+         ((UNICODE=UNICODE + 1))
+         done)
+
+cat <<END
+{ "props":
+  { "ascent": ${ASCENT}
+  , "descent": ${DESCENT}
+  , "em": ${EM}
+  , "encoding": "UnicodeFull"
+  , "lang": "English (US)"
+  , "family": "${FONTNAME}"
+  , "style": "Regular"
+  , "familyname": "${FONTNAME}"
+  , "fontname": "${FONTNAME}-Regular"
+  , "fullname": "${FONTNAME} Regular"
+  }
+, "glyphs":
+  { ${GLYPHS}
+  }
+, "sfnt_names":
+  [ ["English (US)", "Copyright", "Copyright (c) ${FONTDATE} ${COPYRIGHT}"]
+  , ["English (US)", "Family", "${FONTNAME}"]
+  , ["English (US)", "SubFamily", "Regular"]
+  , ["English (US)", "UniqueID", "${FONTNAME} ${FONTDATE}"]
+  , ["English (US)", "Fullname", "${FONTNAME} Regular"]
+  , ["English (US)", "Version", "Version ${FONTVERSION}"]
+  , ["English (US)", "PostScriptName", "${FONTNAME}-Regular"]
+  ]
+, "input": "."
+  , "output": [ "${FONTNAME}-Regular.ttf", "${FONTNAME}-Regular.svg", "${FONTNAME}-Regular.woff" ]
+}
+END

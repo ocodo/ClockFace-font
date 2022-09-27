@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+
+for a in "" Solid Rect RectSolid;
+do
+echo "-- [$a] ----------"
+bin/make_json "ClockFace${a}-glyphs" 1000 0xE800 "ClockFace${a}" > "ClockFace${a}-temp.json"
+npm exec prettier "ClockFace${a}-temp.json" > "ClockFace${a}.json"
+bin/svgs2ttf "ClockFace${a}.json"
+done

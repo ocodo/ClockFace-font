@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "durable-json-lint": "^0.0.3"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
