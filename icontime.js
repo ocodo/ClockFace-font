@@ -1,12 +1,11 @@
 function setIconTime() {
-    let clock = document.getElementById("pagetime")
-    let unicode = timeNowToUnicode()
-    clock.innerHTML = unicode
+  document.querySelectorAll(".clock").forEach( (i) => i.innerHTML = timeNowToUnicode())
+  document.getElementById("pagetime").innerHTML = timeNowToUnicode()
 }
 
 function startIconTime() {
   setIconTime()
-  setInterval(setIconTime, 60 * 5 * 1000)
+  setInterval(setIconTime, 1000)
 }
 
 function timeNowToUnicode() {
@@ -17,7 +16,8 @@ function timeNowToUnicode() {
   let offset = Math.floor((h * 12) + ((m / 60) * 12))
   let unicode = 0xE800 + offset
 
-  console.log(` H: ${h}\n M: ${m}\n Offset: ${offset}\n Unicode: ${unicode}\n`)
+  // debug loggin
+  // console.log(` H: ${h}\n M: ${m}\n Offset: ${offset}\n Unicode: ${unicode}\n`)
 
   return `&#${unicode}`
 }
