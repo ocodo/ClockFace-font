@@ -15,8 +15,18 @@
              outline-offset: -2px;
          }
          a:hover,
-         a:active {
+         a:active,
+         a:visited {
              outline: 0;
+             text-decoration: none;
+         }
+         a {
+             color: #555;
+             text-decoration: none;
+         }
+         a:hover {
+             color: #888;
+             text-decoration: none;
          }
          body {
              margin: 30pt;
@@ -25,14 +35,6 @@
              line-height: 20px;
              color: #666 ;
              background-color: #fff;
-         }
-         a {
-             color: #08c;
-             text-decoration: none;
-         }
-         a:hover {
-             color: #005580;
-             text-decoration: underline;
          }
          .row {
              margin-left: -20px;
@@ -57,21 +59,6 @@
              border-style: solid;
              border-radius: 10px;
              width: 5em;
-         }
-         .container {
-             width: 50em;
-             margin-right: auto;
-             margin-left: auto;
-             *zoom: 1;
-         }
-         .container:before,
-         .container:after {
-             display: table;
-             content: "";
-             line-height: 0;
-         }
-         .container:after {
-             clear: both;
          }
          small {
              font-size: 85%;
@@ -119,38 +106,48 @@
          .footer {
              color: #AAA;
              font-size: 12px;
-             text-align: center;
+             text-align: left;
              margin-top: 20px;
          }
          .footer a {
              color: #999;
-             text-decoration: underline;
          }
          @font-face {
-             font-family: 'ClockFace';
-             src: url('./clock-face-regular/ClockFace.ttf?2534122341');
+             font-family: 'ClockFace-Regular';
+             src: url('ClockFace-Regular.ttf?2534122341');
              font-weight: normal;
              font-style: normal;
          }
-         .demo-icon {
-             display: block;
-             font-family: "ClockFace";
+         @font-face {
+             font-family: 'ClockFaceRect-Regular';
+             src: url('ClockFaceRect-Regular.ttf?2534122341');
+             font-weight: normal;
+             font-style: normal;
+         }
+         @font-face {
+             font-family: 'ClockFaceSolid-Regular';
+             src: url('ClockFaceSolid-Regular.ttf?2534122341');
+             font-weight: normal;
+             font-style: normal;
+         }
+         @font-face {
+             font-family: 'ClockFaceRectSolid-Regular';
+             src: url('ClockFaceRectSolid-Regular.ttf?2534122341');
+             font-weight: normal;
+             font-style: normal;
+         }
+         .regular {font-family: "ClockFace-Regular";}
+         .solid {font-family: "ClockFaceSolid-Regular";}
+         .rect {font-family: "ClockFaceRect-Regular";}
+         .rect-solid {font-family: "ClockFaceRectSolid-Regular";}
+         .icon {
              font-style: normal;
              font-weight: normal;
              text-align: center;
              font-variant: normal;
-             font-size: 230%;
-             margin: 10pt;
+             font-size: 130%;
              -webkit-font-smoothing: antialiased;
              -moz-osx-font-smoothing: grayscale;
-         }
-         .i-code, .i-name {
-             text-align: center;
-             font-size: 80%;
-             display: block;
-         }
-         .i-code {
-             opacity: 0.3;
          }
         </style>
     </head>
@@ -161,13 +158,17 @@
             <div class="tech-info">12 Hours // Every 5th Minute // Unicode series &amp;#xE800...&amp;#xE88F</div>
             <div class="tech-info"><a href="https://github.com/ocodo/ClockFace-font">Github Repository: ocodo/ClockFace-font</a></div>
         </div>
-        <h2 class="chroma-crawl"><a href="ClockFace.html">ClockFace ⇒</a></h2>
-        <h2 class="chroma-crawl"><a href="ClockFaceSolid.html">ClockFaceSolid ⇒</a></h2>
-        <h2 class="chroma-crawl"><a href="ClockFaceRect.html">ClockFaceRect ⇒</a></h2>
-        <h2 class="chroma-crawl"><a href="ClockFaceRectSolid.html">ClockFaceRectSolid ⇒</a></h2>
-        <div class="container footer"><a href="https://github.com/ocodo/ClockFace-font">ClockFace-font</a> Created by J.L.Milkins / Ocodo
+        <div class="subhead chroma-crawl"><a href="ClockFaceFonts.zip">Download</a></div>
+        <hr/>
+        <div class="subhead chroma-crawl">Previews...</div>
+        <h2 class="chroma-crawl"><a href="ClockFace.html"><i class="regular icon">&#xe803;</i> ClockFace ⇒ </a></h2>
+        <h2 class="chroma-crawl"><a href="ClockFaceRect.html"><i class="rect icon">&#xe803;</i> ClockFaceRect ⇒ </a></h2>
+        <h2 class="chroma-crawl"><a href="ClockFaceSolid.html"><i class="solid icon">&#xe803;</i> ClockFaceSolid ⇒ </a></h2>
+        <h2 class="chroma-crawl"><a href="ClockFaceRectSolid.html"><i class="rect-solid icon">&#xe803;</i> ClockFaceRectSolid ⇒ </a></h2>
+        <div class="container footer">
+            <img src="static/ocodo-2022-footer-logo.png" style="opacity: 0.35"/>
             <br/>
-            <img src="static/ocodo-2022-footer-logo.png" style="opacity: 0.15"/>
+            <a href="https://github.com/ocodo/ClockFace-font">ClockFace-font</a> Created by J.L.Milkins / Ocodo
         </div>
     </body>
 </html>
