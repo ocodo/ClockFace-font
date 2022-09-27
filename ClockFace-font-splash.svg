@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="419"
+   height="200"
+   viewBox="0 0 110.86102 52.916666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="ClockFace-font-splash.svg"
+   inkscape:export-filename="ClockFace-font-splash.png"
+   inkscape:export-xdpi="139.98259"
+   inkscape:export-ydpi="139.98259"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3594916"
+     inkscape:cx="165.71367"
+     inkscape:cy="89.426045"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1301"
+       transform="translate(-11.1125,-6.3499991)">
+      <g
+         aria-label=""
+         id="text186"
+         style="font-size:25.4px;font-family:ClockFace;-inkscape-font-specification:ClockFace;fill:#008080;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         transform="translate(0.52916667)">
+        <path
+           d="m 26.823574,11.497734 q -2.286,-2.3114002 -5.5626,-2.3114002 -3.2766,0 -5.588,2.3114002 -2.286,2.286 -2.286,5.5626 0,3.2766 2.286,5.588 2.3114,2.286 5.588,2.286 3.2766,0 5.5626,-2.286 2.3114,-2.3114 2.3114,-5.588 0,-3.2766 -2.3114,-5.5626 z m -12.2174,-1.0668 q 2.7686,-2.7686001 6.6548,-2.7686001 3.8862,0 6.6294,2.7686001 2.7686,2.7432 2.7686,6.6294 0,3.8862 -2.7686,6.6294 -2.7432,2.7686 -6.6294,2.7686 -3.8862,0 -6.6548,-2.7686 -2.7432,-2.7432 -2.7432,-6.6294 0,-3.8862 2.7432,-6.6294 z m 5.8928,6.6294 v -4.572 q 0,-0.3048 0.2286,-0.5334 0.2286,-0.2286 0.5334,-0.2286 0.3048,0 0.5334,0.2286 0.2286,0.2286 0.2286,0.5334 v 3.81 h 6.096 q 0.3048,0 0.5334,0.2286 0.2286,0.2286 0.2286,0.5334 0,0.3048 -0.2286,0.5334 -0.2286,0.2286 -0.5334,0.2286 h -6.858 q -0.3048,0 -0.5334,-0.2286 -0.2286,-0.2286 -0.2286,-0.5334 z"
+           id="path1065"
+           style="fill:#008080" />
+      </g>
+      <g
+         aria-label=""
+         id="text953"
+         style="font-size:25.4px;font-family:ClockFaceRectSolid;-inkscape-font-specification:ClockFaceRectSolid;fill:#008080;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         transform="translate(0.52916667,7.6877338)">
+        <path
+           d="m 111.68462,4.2926003 q -0.2286,-0.2286 -0.5334,-0.2286 -0.3048,0 -0.5334,0.2286 -0.2286,0.2286 -0.2286,0.5334 v 4.5719999 q 0,0.3048 0.2286,0.5334 0.2286,0.2285998 0.5334,0.2285998 h 6.858 q 0.3048,0 0.5334,-0.2285998 0.2286,-0.2286 0.2286,-0.5334 0,-0.3048 -0.2286,-0.5334 -0.2286,-0.2285999 -0.5334,-0.2285999 h -6.096 v -3.81 q 0,-0.3048 -0.2286,-0.5334 z m -4.6228,-4.31799992 h 8.128 q 2.2098,0 3.7592,1.57480002 1.5748,1.5493999 1.5748,3.7591999 V 13.4366 q 0,2.2098 -1.5748,3.7592 -1.5494,1.5748 -3.7592,1.5748 h -8.128 q -2.2098,0 -3.7846,-1.5748 -1.5494,-1.5494 -1.5494,-3.7592 V 5.3086003 q 0,-2.2098 1.5494,-3.7591999 1.5748,-1.57480002 3.7846,-1.57480002 z"
+           id="path1068"
+           style="fill:#008080" />
+      </g>
+      <g
+         aria-label=""
+         id="text957"
+         style="font-size:25.4px;font-family:ClockFaceRect;-inkscape-font-specification:ClockFaceRect;fill:#008080;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         transform="translate(8.083097,-11.108265)">
+        <path
+           d="m 69.552941,20.294599 q -1.6002,0 -2.7178,1.1176 -1.0922,1.0922 -1.0922,2.6924 v 8.128 q 0,1.6002 1.0922,2.6924 1.1176,1.1176 2.7178,1.1176 h 8.128 q 1.6002,0 2.6924,-1.1176 1.1176,-1.0922 1.1176,-2.6924 v -8.128 q 0,-1.6002 -1.1176,-2.6924 -1.0922,-1.1176 -2.6924,-1.1176 z m 0,-1.524 h 8.128 q 2.2098,0 3.7592,1.5748 1.5748,1.5494 1.5748,3.7592 v 8.128 q 0,2.2098 -1.5748,3.7592 -1.5494,1.5748 -3.7592,1.5748 h -8.128 q -2.2098,0 -3.7846,-1.5748 -1.5494,-1.5494 -1.5494,-3.7592 v -8.128 q 0,-2.2098 1.5494,-3.7592 1.5748,-1.5748 3.7846,-1.5748 z m 3.3274,9.4234 v -4.572 q 0,-0.3048 0.2286,-0.5334 0.2286,-0.2286 0.5334,-0.2286 0.3048,0 0.5334,0.2286 0.2286,0.2286 0.2286,0.5334 v 3.81 h 6.096 q 0.3048,0 0.5334,0.2286 0.2286,0.2286 0.2286,0.5334 0,0.3048 -0.2286,0.5334 -0.2286,0.2286 -0.5334,0.2286 h -6.858 q -0.3048,0 -0.5334,-0.2286 -0.2286,-0.2286 -0.2286,-0.5334 z"
+           id="path1071"
+           style="fill:#008080" />
+      </g>
+      <g
+         aria-label=""
+         id="text961"
+         style="font-size:25.4px;font-family:ClockFace;-inkscape-font-specification:ClockFace;fill:#008080;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         transform="translate(-3.1012496,7.6623338)">
+        <path
+           d="m 55.379739,4.2926003 q -0.2286,-0.2286 -0.5334,-0.2286 -0.3048,0 -0.5334,0.2286 -0.2286,0.2286 -0.2286,0.5334 v 4.5719999 q 0,0.3048 0.2286,0.5334 0.2286,0.2285998 0.5334,0.2285998 h 6.858 q 0.3048,0 0.5334,-0.2285998 0.2286,-0.2286 0.2286,-0.5334 0,-0.3048 -0.2286,-0.5334 -0.2286,-0.2285999 -0.5334,-0.2285999 h -6.096 v -3.81 q 0,-0.3048 -0.2286,-0.5334 z m -7.1882,-1.524 Q 50.960139,3.8146973e-7 54.846339,3.8146973e-7 q 3.8862,0 6.6294,2.76859991853027 2.7686,2.7432 2.7686,6.6293999 0,3.8861998 -2.7686,6.6293998 -2.7432,2.7686 -6.6294,2.7686 -3.8862,0 -6.6548,-2.7686 -2.7432,-2.7432 -2.7432,-6.6293998 0,-3.8861999 2.7432,-6.6293999 z"
+           style="font-family:ClockFaceSolid;-inkscape-font-specification:ClockFaceSolid;fill:#008080"
+           id="path1074" />
+      </g>
+    </g>
+    <g
+       id="g1307"
+       transform="translate(-11.004345,58.208339)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:ClockFaceRectSolid;-inkscape-font-specification:ClockFaceRectSolid;fill:#008080;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         x="15.923275"
+         y="-14.241239"
+         id="text1237"><tspan
+           sodipodi:role="line"
+           id="tspan1235"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583"
+           x="15.923275"
+           y="-14.241239"
+           dx="-4.7097006 -2.4669862 -2.4669862 -2.0184436 -2.5791218 -1.6820364 -3.0276644 -2.3548505 -1.6820364">ClockFace</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';fill:#008080;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:0.264583, 1.5875;stroke-opacity:0.816265;paint-order:markers fill stroke"
+         x="93.915825"
+         y="-6.6141815"
+         id="text1291"><tspan
+           sodipodi:role="line"
+           id="tspan1289"
+           style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:9.87778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Thin';stroke-width:0.264583"
+           x="93.915825"
+           y="-6.6141815">ICONS</tspan></text>
+    </g>
+  </g>
+</svg>
