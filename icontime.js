@@ -4,8 +4,14 @@ function setIconTime() {
 }
 
 function startIconTime() {
+  let coeff = 300000
+  let date = new Date()
+  let rounded = new Date(Math.round(date.getTime() / coeff) * coeff)
+
   setIconTime()
-  setInterval(setIconTime, 1000)
+  setTimeout(function(){
+    setInterval(setIconTime, 300000)
+  }, rounded)
 }
 
 function timeNowToUnicode() {
