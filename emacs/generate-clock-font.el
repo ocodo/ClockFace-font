@@ -146,7 +146,7 @@ Font file to create"
                               (glyph-path (s-match " d=\"\\(.*?\\)\"" glyph-svg)))
                           (format glyph-template
                                   glyph-name
-                                  (+ #xe800 index)
+                                  (+ #xF0000 index)
                                   glyph-path)))
                      glyph-filenames)))
            (font (format font-template font-name-suffix glyphs)))

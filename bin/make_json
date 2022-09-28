@@ -5,17 +5,17 @@ export FONTVERSION="001.000"
 export FONTDATE="2022-09-26"
 export COPYRIGHT="JLMilkins / Ocodo"
 export ASCENT=750
-export DESCENT=250
-export EM=1000
+export DESCENT=150
 
 export GLYPH_TEMPLATE='"0x${UNICODE_HEX}": { "src": "${SVG_FILE}", "width": ${WIDTH} },'
 
 export WIDTH=$2
+export EM=${WIDTH}
 export UNICODE=$(printf "%i" $3)
 export GLYPHS=$(for SVG_FILE in $1/*svg
          do
          export SVG_FILE
-         export UNICODE_HEX=$(printf "%04X" $UNICODE)
+         export UNICODE_HEX=$(printf "%06X" $UNICODE)
          envsubst <<<$GLYPH_TEMPLATE
          ((UNICODE=UNICODE + 1))
          done)
