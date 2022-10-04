@@ -103,35 +103,6 @@ Glyph output directory"
          (message "Writing: %s" output-path-filename)
          (f-write-text (format clock-template it) 'utf-8 output-path-filename))))))
 
-;; (defun make-solid-glyphs-ready-for-ttf)
-
-(when nil
- (generate-clock-faces
-  '(:clock-face-template-filename "./clockface-solid.template"
-    :hands-template-filename "./hands.template"
-    :hour-radius 140
-    :minute-radius 210
-    :glyph-directory "../ClockFaceFatHandsSolid-glyphs/"))
-
- (generate-clock-faces
-  '(:clock-face-template-filename "./clockface-square.template"
-    :hands-template-filename "./hands-square.template"
-    :hour-radius 150
-    :minute-radius 230
-    :glyph-directory "../ClockFaceSquare-glyphs/"))
-
- (convert-glyphs-for-ttf "../ClockFaceFatHands-glyphs/")
- (progn
-  (convert-glyphs-for-ttf "../ClockFaceSquare-glyphs/")
-  (convert-glyphs-for-ttf "../ClockFaceFatSquare-glyphs/"))
-
- (generate-clock-faces
-  '(:clock-face-template-filename "./clockface-fat-square.template"
-    :hands-template-filename "./hands-fat.template"
-    :hour-radius 150
-    :minute-radius 230
-    :glyph-directory "../ClockFaceFatSquare-glyphs/")))
-
 (defun convert-glyphs-for-ttf (folder &optional solid frame-id)
   "Convert glyphs in FOLDER for truetype.
 
@@ -191,7 +162,7 @@ Font glyph template file
 :output-filename
 Font file to create"
   (plist-bind (font-name-suffix
-               sglyph-svg-directory
+               glyph-svg-directory
                font-template-filename
                font-glyph-template-filename
                output-filename)
@@ -213,5 +184,57 @@ Font file to create"
                      glyph-filenames)))
            (font (format font-template font-name-suffix glyphs)))
         (f-write-text font 'utf-8 output-filename))))
+
+(defun cleanup-glyph-folder (folder)
+  "Clean up after successful inkscape run,
+Remove original construction glyphs from FOLDER."
+  (--each
+    (f--entries folder (string-match-p "clock_[01][0-9]_[0-5][05][.]svg" it))
+    (f-delete it)))
+
+(defun generate-font-options (variant)
+  "Use VARIANT name to generate options"
+  (list :font-name-suffix variant
+        :glyph-svg-directory (format "../ClockFace%s-glyphs/" variant)
+        :font-template-filename "./font.template"
+        :font-glyph-template-filename "./font-glyph.template"
+        :output-filename (format "../ClockFace%s-Regular.ttf" variant)))
+
+(when nil
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-solid.template"
+    :hands-template-filename "./hands.template"
+    :hour-radius 140
+    :minute-radius 210
+    :glyph-directory "../ClockFaceFatHandsSolid-glyphs/"))
+
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-square.template"
+    :hands-template-filename "./hands-square.template"
+    :hour-radius 150
+    :minute-radius 230
+    :glyph-directory "../ClockFaceSquare-glyphs/"))
+
+ (progn
+  (generate-clock-font (generate-font-options "FatHands"))
+  (generate-clock-font (generate-font-options "FatSquare"))
+  (generate-clock-font (generate-font-options "Square")))
+
+ (progn
+  (convert-glyphs-for-ttf "../ClockFaceFatHands-glyphs/")
+  (convert-glyphs-for-ttf "../ClockFaceSquare-glyphs/")
+  (convert-glyphs-for-ttf "../ClockFaceFatSquare-glyphs/"))
+
+ (progn
+  (cleanup-glyph-folder "../ClockFaceFatHands-glyphs/")
+  (cleanup-glyph-folder "../ClockFaceSquare-glyphs/")
+  (cleanup-glyph-folder "../ClockFaceFatSquare-glyphs/"))
+
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-fat-square.template"
+    :hands-template-filename "./hands-fat.template"
+    :hour-radius 150
+    :minute-radius 230
+    :glyph-directory "../ClockFaceFatSquare-glyphs/")))
 
 ;;; generate-clock-font.el ends here
