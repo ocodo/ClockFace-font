@@ -192,8 +192,8 @@ Remove original construction glyphs from FOLDER."
       (f--entries folder (string-match-p "clock_[01][0-9]_[0-5][05][.]svg" it))
     (f-delete it))
   (--each
-      (f--entries folder (string-match-p ".*out.svg" it))
-    (f-move it (replace-regexp-in-string "out[.]svg" ".svg" it))))
+      (f--entries folder (string-match-p ".*_out[.]svg" it))
+    (f-move it (replace-regexp-in-string "_out[.]svg" ".svg" it))))
 
 (defun generate-font-options (variant)
   "Use VARIANT name to generate options"
