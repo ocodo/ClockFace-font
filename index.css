@@ -70,7 +70,7 @@ small {
 h1 ,
 h2 {
     letter-spacing: -5.8pt;
-    font-size: 500%;
+    font-size: 400%;
     margin: 12pt 0 30pt 0;
     font-family: inherit;
     font-weight: bold;
@@ -149,6 +149,42 @@ body {
 }
 
 @font-face {
+    font-family: 'ClockFaceFatSolid-Regular';
+    src: url('ClockFaceFatSolid-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClockFaceFatSquareSolid-Regular';
+    src: url('ClockFaceFatSquareSolid-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClockFaceSquareSolid-Regular';
+    src: url('ClockFaceSquareSolid-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClockFaceFatRect-Regular';
+    src: url('ClockFaceFatRect-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClockFaceFatRectSolid-Regular';
+    src: url('ClockFaceFatRectSolid-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'ClockFaceFatSquare-Regular';
     src: url('ClockFaceFatSquare-Regular.ttf?2534122341');
     font-weight: normal;
@@ -167,8 +203,13 @@ body {
 .rect {font-family: "ClockFaceRect-Regular";}
 .rect-solid {font-family: "ClockFaceRectSolid-Regular";}
 .fat-hands {font-family: "ClockFaceFatHands-Regular";}
+.fat-solid {font-family: "ClockFaceFatSolid-Regular";}
 .fat-square {font-family: "ClockFaceFatSquare-Regular";}
+.fat-rect {font-family: "ClockFaceFatRect-Regular";}
+.fat-rect-solid {font-family: "ClockFaceFatRectSolid-Regular";}
 .square {font-family: "ClockFaceSquare-Regular";}
+.square-solid {font-family: "ClockFaceSquareSolid-Regular";}
+.fat-square-solid {font-family: "ClockFaceFatSquareSolid-Regular";}
 
 .icon {
     font-style: normal;
