@@ -140,10 +140,36 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ClockFaceFatHands-Regular';
+    src: url('ClockFaceFatHands-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClockFaceFatSquare-Regular';
+    src: url('ClockFaceFatSquare-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClockFaceSquare-Regular';
+    src: url('ClockFaceSquare-Regular.ttf?2534122341');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .regular {font-family: "ClockFace-Regular";}
 .solid {font-family: "ClockFaceSolid-Regular";}
 .rect {font-family: "ClockFaceRect-Regular";}
 .rect-solid {font-family: "ClockFaceRectSolid-Regular";}
+.fat-hands {font-family: "ClockFaceFatHands-Regular";}
+.fat-square {font-family: "ClockFaceFatSquare-Regular";}
+.square {font-family: "ClockFaceSquare-Regular";}
+
 .icon {
     font-style: normal;
     font-weight: normal;

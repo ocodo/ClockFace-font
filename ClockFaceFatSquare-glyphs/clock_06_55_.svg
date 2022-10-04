@@ -5,7 +5,7 @@
    version="1.1"
    viewBox="0 0 1000 1000"
    id="svg7"
-   sodipodi:docname="clock_06_55.svg"
+   sodipodi:docname="clock_06_55_.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
        transform="translate(500,500) rotate(270)"
        id="g4">
       <path
-         id="clock_06_55"
+         id="path11"
          style="color:#000000;fill:#ffffff;stroke-linecap:square;stroke-linejoin:round;-inkscape-stroke:none"
          d="m 213.82617,-169.64062 -34.64062,20 L -10.71875,-40 H -150 -190 v 80 h 40 150 a 40.004,40.004 0 0 0 20,-5.359375 l 199.18555,-115 34.64062,-20.000005 z M 381,-381 h -40 -720 v 760 h 760 z m -80,80 v 600 h -600 v -600 z" />
     </g>
