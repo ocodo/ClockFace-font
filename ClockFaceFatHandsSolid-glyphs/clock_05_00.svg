@@ -10,7 +10,7 @@
   <g id="container">
     <circle
         style="fill:#000000;stroke:#000000;stroke-width:60"
-        id="solid-circle-frame"
+        id="frame"
         cx="500"
         cy="500"
         r="340"
