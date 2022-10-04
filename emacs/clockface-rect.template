@@ -9,7 +9,7 @@
   <g id="container">
     <rect
         style="fill:none;stroke:#000000;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-        id="rect-frame"
+        id="frame"
         width="680"
         height="680"
         x="159"

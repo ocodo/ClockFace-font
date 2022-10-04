@@ -70,13 +70,13 @@ Integer for hour hand length
 :minute-radius
 Integer for hour minute length
 
-:name-prefix
-String filename/path prefix"
+:glyph-directory
+Glyph output directory"
  (plist-bind (clock-face-template-filename
               hands-template-filename
               hour-radius
               minute-radius
-              name-prefix)
+              glyph-directory)
              options
    (let* ((clock-template (f-read clock-face-template-filename))
           (hands-template (f-read hands-template-filename))
@@ -92,21 +92,83 @@ String filename/path prefix"
                                                 hands-template))
                            minutes))
                         hours)))
-          (name-prefix    (or name-prefix (read-string "Name prefix: "))))
+          (glyph-directory (or glyph-directory (read-directory-name "Glyph output directory: "))))
+      (unless (file-directory-p glyph-directory)
+        (make-directory glyph-directory t))
       (--each-indexed time-paths
-        (let ((output-filename (format
-                                "%s%s.svg"
-                                name-prefix
-                                (index-to-hour-minute it-index))))
-         (message "Writing: %s" output-filename)
-         (f-write-text (format clock-template it) 'utf-8 output-filename))))))
+        (let ((output-path-filename (format
+                                     "%s/%s.svg"
+                                     glyph-directory
+                                     (index-to-hour-minute it-index))))
+         (message "Writing: %s" output-path-filename)
+         (f-write-text (format clock-template it) 'utf-8 output-path-filename))))))
 
-(defun strokes-to-combined-path (svg-file output-file)
-  "Use inkscape to convert strokes in SVG-FILE to a single combined path OUTPUT-FILE."
+;; (defun make-solid-glyphs-ready-for-ttf)
+
+(when nil
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-solid.template"
+    :hands-template-filename "./hands.template"
+    :hour-radius 140
+    :minute-radius 210
+    :glyph-directory "../ClockFaceFatHandsSolid-glyphs/"))
+
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-square.template"
+    :hands-template-filename "./hands-square.template"
+    :hour-radius 150
+    :minute-radius 230
+    :glyph-directory "../ClockFaceSquare-glyphs/"))
+
+ (convert-glyphs-for-ttf "../ClockFaceFatHands-glyphs/")
+ (progn
+  (convert-glyphs-for-ttf "../ClockFaceSquare-glyphs/")
+  (convert-glyphs-for-ttf "../ClockFaceFatSquare-glyphs/"))
+
+ (generate-clock-faces
+  '(:clock-face-template-filename "./clockface-fat-square.template"
+    :hands-template-filename "./hands-fat.template"
+    :hour-radius 150
+    :minute-radius 230
+    :glyph-directory "../ClockFaceFatSquare-glyphs/")))
+
+(defun convert-glyphs-for-ttf (folder &optional solid frame-id)
+  "Convert glyphs in FOLDER for truetype.
+
+When SOLID is nil, we combine the paths created by inkscape stroke-to-path, into a single path.
+
+SOLID non-nil, create clock using hands path subtracted from face path.
+FRAME-ID must be supplied when using SOLID."
+  (--each (f--entries folder (string-match-p ".*svg$" it))
+    (if solid
+        (progn
+         (unless frame-id (user-error "No frame-id for SVG path differene"))
+         (strokes-to-path-difference it frame-id))
+     (strokes-to-combined-path it))))
+
+(defun strokes-to-combined-path (svg-file)
+  "Use inkscape to convert strokes in SVG-FILE to a single combined path."
   (let ((inkscape-actions
          "--actions=\"select-all:groups;object-stroke-to-path;path-combine;export-do\"")
-        (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))))
+        (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))
+     (shell-command (s-join " " `(,inkscape-command ,inkscape-actions ,svg-file)))))
 
+(defun strokes-to-path-difference (svg-file frame-id)
+  "Use inkscape to convert strokes in SVG-FILE to a single combined path."
+  (let ((inkscape-actions (format "--actions=\"select-all:groups;
+                        object-stroke-to-path;
+                        select-clear;
+                        select-by-id:%s;
+                        selection-ungroup;
+                        path-union;
+                        selection-bottom;
+                        select-all:all;
+                        selection-ungroup;
+                        selection-ungroup;
+                        path-difference;
+                        export-do\"" frame-id))
+        (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))
+     (shell-command (s-join " " `(,inkscape-command ,inkscape-actions ,svg-file)))))
 
 (defun generate-clock-font (options)
  "Generate a clock font from glyphs.

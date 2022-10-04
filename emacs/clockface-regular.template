@@ -8,7 +8,7 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:svg="http://www.w3.org/2000/svg">
   <g id="container">
-    <circle id="hour-frame" style="fill:none;stroke:#000000;stroke-width:60"
+    <circle id="frame" style="fill:none;stroke:#000000;stroke-width:80"
             cx="500" cy="500" r="340" />
     <g transform="translate(500,500) rotate(270)">
       %s
