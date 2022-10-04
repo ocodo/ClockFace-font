@@ -141,8 +141,8 @@ FRAME-ID must be supplied when using SOLID."
         (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))
      (shell-command (s-join " " `(,inkscape-command ,inkscape-actions ,svg-file)))))
 
-(defun generate-clock-font (options)
- "Generate a clock font from glyphs.
+(defun generate-clock-svg-font (options)
+ "Generate a clock svg font from glyphs.
 
 OPTIONS all required
 
@@ -174,9 +174,9 @@ Font file to create"
                     "\n"
                     (-map-indexed
                      (lambda (index glyph-svg-filename)
-                        (let ((glyph-svg (f-read-text glyph-svg-filename))
-                              (glyph-name (file-name-base glyph-svg-filename))
-                              (glyph-path (s-match " d=\"\\(.*?\\)\"" glyph-svg)))
+                        (let* ((glyph-svg (f-read-text glyph-svg-filename))
+                               (glyph-name (file-name-base glyph-svg-filename))
+                               (glyph-path (s-match " d=\"\\(.*?\\)\"" glyph-svg)))
                           (format glyph-template
                                   glyph-name
                                   (+ #xF0000 index)
@@ -222,16 +222,6 @@ Remove original construction glyphs from FOLDER."
   (generate-clock-font (generate-font-options "FatHands"))
   (generate-clock-font (generate-font-options "FatSquare"))
   (generate-clock-font (generate-font-options "Square")))
-
- (progn
-  (convert-glyphs-for-ttf "../ClockFaceFatHands-glyphs/")
-  (convert-glyphs-for-ttf "../ClockFaceSquare-glyphs/")
-  (convert-glyphs-for-ttf "../ClockFaceFatSquare-glyphs/"))
-
- (progn
-  (cleanup-glyph-folder "../ClockFaceFatHands-glyphs/")
-  (cleanup-glyph-folder "../ClockFaceSquare-glyphs/")
-  (cleanup-glyph-folder "../ClockFaceFatSquare-glyphs/"))
 
  (generate-clock-faces
   '(:clock-face-template-filename "./clockface-fat-square.template"
