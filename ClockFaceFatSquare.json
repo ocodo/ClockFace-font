@@ -1,0 +1,607 @@
+{
+  "props": {
+    "ascent": 750,
+    "descent": 150,
+    "em": 1000,
+    "encoding": "UnicodeFull",
+    "lang": "English (US)",
+    "family": "ClockFaceFatSquare",
+    "style": "Regular",
+    "familyname": "ClockFaceFatSquare",
+    "fontname": "ClockFaceFatSquare-Regular",
+    "fullname": "ClockFaceFatSquare Regular"
+  },
+  "glyphs": {
+    "0x0F0000": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_00_.svg",
+      "width": 1000
+    },
+    "0x0F0001": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_05_.svg",
+      "width": 1000
+    },
+    "0x0F0002": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_10_.svg",
+      "width": 1000
+    },
+    "0x0F0003": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_15_.svg",
+      "width": 1000
+    },
+    "0x0F0004": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_20_.svg",
+      "width": 1000
+    },
+    "0x0F0005": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_25_.svg",
+      "width": 1000
+    },
+    "0x0F0006": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_30_.svg",
+      "width": 1000
+    },
+    "0x0F0007": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_35_.svg",
+      "width": 1000
+    },
+    "0x0F0008": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_40_.svg",
+      "width": 1000
+    },
+    "0x0F0009": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_45_.svg",
+      "width": 1000
+    },
+    "0x0F000A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_50_.svg",
+      "width": 1000
+    },
+    "0x0F000B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_00_55_.svg",
+      "width": 1000
+    },
+    "0x0F000C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_00_.svg",
+      "width": 1000
+    },
+    "0x0F000D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_05_.svg",
+      "width": 1000
+    },
+    "0x0F000E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_10_.svg",
+      "width": 1000
+    },
+    "0x0F000F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_15_.svg",
+      "width": 1000
+    },
+    "0x0F0010": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_20_.svg",
+      "width": 1000
+    },
+    "0x0F0011": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_25_.svg",
+      "width": 1000
+    },
+    "0x0F0012": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_30_.svg",
+      "width": 1000
+    },
+    "0x0F0013": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_35_.svg",
+      "width": 1000
+    },
+    "0x0F0014": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_40_.svg",
+      "width": 1000
+    },
+    "0x0F0015": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_45_.svg",
+      "width": 1000
+    },
+    "0x0F0016": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_50_.svg",
+      "width": 1000
+    },
+    "0x0F0017": {
+      "src": "ClockFaceFatSquare-glyphs/clock_01_55_.svg",
+      "width": 1000
+    },
+    "0x0F0018": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_00_.svg",
+      "width": 1000
+    },
+    "0x0F0019": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_05_.svg",
+      "width": 1000
+    },
+    "0x0F001A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_10_.svg",
+      "width": 1000
+    },
+    "0x0F001B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_15_.svg",
+      "width": 1000
+    },
+    "0x0F001C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_20_.svg",
+      "width": 1000
+    },
+    "0x0F001D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_25_.svg",
+      "width": 1000
+    },
+    "0x0F001E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_30_.svg",
+      "width": 1000
+    },
+    "0x0F001F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_35_.svg",
+      "width": 1000
+    },
+    "0x0F0020": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_40_.svg",
+      "width": 1000
+    },
+    "0x0F0021": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_45_.svg",
+      "width": 1000
+    },
+    "0x0F0022": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_50_.svg",
+      "width": 1000
+    },
+    "0x0F0023": {
+      "src": "ClockFaceFatSquare-glyphs/clock_02_55_.svg",
+      "width": 1000
+    },
+    "0x0F0024": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_00_.svg",
+      "width": 1000
+    },
+    "0x0F0025": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_05_.svg",
+      "width": 1000
+    },
+    "0x0F0026": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_10_.svg",
+      "width": 1000
+    },
+    "0x0F0027": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_15_.svg",
+      "width": 1000
+    },
+    "0x0F0028": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_20_.svg",
+      "width": 1000
+    },
+    "0x0F0029": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_25_.svg",
+      "width": 1000
+    },
+    "0x0F002A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_30_.svg",
+      "width": 1000
+    },
+    "0x0F002B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_35_.svg",
+      "width": 1000
+    },
+    "0x0F002C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_40_.svg",
+      "width": 1000
+    },
+    "0x0F002D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_45_.svg",
+      "width": 1000
+    },
+    "0x0F002E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_50_.svg",
+      "width": 1000
+    },
+    "0x0F002F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_03_55_.svg",
+      "width": 1000
+    },
+    "0x0F0030": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_00_.svg",
+      "width": 1000
+    },
+    "0x0F0031": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_05_.svg",
+      "width": 1000
+    },
+    "0x0F0032": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_10_.svg",
+      "width": 1000
+    },
+    "0x0F0033": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_15_.svg",
+      "width": 1000
+    },
+    "0x0F0034": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_20_.svg",
+      "width": 1000
+    },
+    "0x0F0035": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_25_.svg",
+      "width": 1000
+    },
+    "0x0F0036": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_30_.svg",
+      "width": 1000
+    },
+    "0x0F0037": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_35_.svg",
+      "width": 1000
+    },
+    "0x0F0038": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_40_.svg",
+      "width": 1000
+    },
+    "0x0F0039": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_45_.svg",
+      "width": 1000
+    },
+    "0x0F003A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_50_.svg",
+      "width": 1000
+    },
+    "0x0F003B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_04_55_.svg",
+      "width": 1000
+    },
+    "0x0F003C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_00_.svg",
+      "width": 1000
+    },
+    "0x0F003D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_05_.svg",
+      "width": 1000
+    },
+    "0x0F003E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_10_.svg",
+      "width": 1000
+    },
+    "0x0F003F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_15_.svg",
+      "width": 1000
+    },
+    "0x0F0040": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_20_.svg",
+      "width": 1000
+    },
+    "0x0F0041": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_25_.svg",
+      "width": 1000
+    },
+    "0x0F0042": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_30_.svg",
+      "width": 1000
+    },
+    "0x0F0043": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_35_.svg",
+      "width": 1000
+    },
+    "0x0F0044": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_40_.svg",
+      "width": 1000
+    },
+    "0x0F0045": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_45_.svg",
+      "width": 1000
+    },
+    "0x0F0046": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_50_.svg",
+      "width": 1000
+    },
+    "0x0F0047": {
+      "src": "ClockFaceFatSquare-glyphs/clock_05_55_.svg",
+      "width": 1000
+    },
+    "0x0F0048": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_00_.svg",
+      "width": 1000
+    },
+    "0x0F0049": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_05_.svg",
+      "width": 1000
+    },
+    "0x0F004A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_10_.svg",
+      "width": 1000
+    },
+    "0x0F004B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_15_.svg",
+      "width": 1000
+    },
+    "0x0F004C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_20_.svg",
+      "width": 1000
+    },
+    "0x0F004D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_25_.svg",
+      "width": 1000
+    },
+    "0x0F004E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_30_.svg",
+      "width": 1000
+    },
+    "0x0F004F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_35_.svg",
+      "width": 1000
+    },
+    "0x0F0050": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_40_.svg",
+      "width": 1000
+    },
+    "0x0F0051": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_45_.svg",
+      "width": 1000
+    },
+    "0x0F0052": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_50_.svg",
+      "width": 1000
+    },
+    "0x0F0053": {
+      "src": "ClockFaceFatSquare-glyphs/clock_06_55_.svg",
+      "width": 1000
+    },
+    "0x0F0054": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_00_.svg",
+      "width": 1000
+    },
+    "0x0F0055": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_05_.svg",
+      "width": 1000
+    },
+    "0x0F0056": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_10_.svg",
+      "width": 1000
+    },
+    "0x0F0057": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_15_.svg",
+      "width": 1000
+    },
+    "0x0F0058": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_20_.svg",
+      "width": 1000
+    },
+    "0x0F0059": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_25_.svg",
+      "width": 1000
+    },
+    "0x0F005A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_30_.svg",
+      "width": 1000
+    },
+    "0x0F005B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_35_.svg",
+      "width": 1000
+    },
+    "0x0F005C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_40_.svg",
+      "width": 1000
+    },
+    "0x0F005D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_45_.svg",
+      "width": 1000
+    },
+    "0x0F005E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_50_.svg",
+      "width": 1000
+    },
+    "0x0F005F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_07_55_.svg",
+      "width": 1000
+    },
+    "0x0F0060": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_00_.svg",
+      "width": 1000
+    },
+    "0x0F0061": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_05_.svg",
+      "width": 1000
+    },
+    "0x0F0062": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_10_.svg",
+      "width": 1000
+    },
+    "0x0F0063": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_15_.svg",
+      "width": 1000
+    },
+    "0x0F0064": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_20_.svg",
+      "width": 1000
+    },
+    "0x0F0065": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_25_.svg",
+      "width": 1000
+    },
+    "0x0F0066": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_30_.svg",
+      "width": 1000
+    },
+    "0x0F0067": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_35_.svg",
+      "width": 1000
+    },
+    "0x0F0068": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_40_.svg",
+      "width": 1000
+    },
+    "0x0F0069": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_45_.svg",
+      "width": 1000
+    },
+    "0x0F006A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_50_.svg",
+      "width": 1000
+    },
+    "0x0F006B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_08_55_.svg",
+      "width": 1000
+    },
+    "0x0F006C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_00_.svg",
+      "width": 1000
+    },
+    "0x0F006D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_05_.svg",
+      "width": 1000
+    },
+    "0x0F006E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_10_.svg",
+      "width": 1000
+    },
+    "0x0F006F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_15_.svg",
+      "width": 1000
+    },
+    "0x0F0070": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_20_.svg",
+      "width": 1000
+    },
+    "0x0F0071": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_25_.svg",
+      "width": 1000
+    },
+    "0x0F0072": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_30_.svg",
+      "width": 1000
+    },
+    "0x0F0073": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_35_.svg",
+      "width": 1000
+    },
+    "0x0F0074": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_40_.svg",
+      "width": 1000
+    },
+    "0x0F0075": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_45_.svg",
+      "width": 1000
+    },
+    "0x0F0076": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_50_.svg",
+      "width": 1000
+    },
+    "0x0F0077": {
+      "src": "ClockFaceFatSquare-glyphs/clock_09_55_.svg",
+      "width": 1000
+    },
+    "0x0F0078": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_00_.svg",
+      "width": 1000
+    },
+    "0x0F0079": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_05_.svg",
+      "width": 1000
+    },
+    "0x0F007A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_10_.svg",
+      "width": 1000
+    },
+    "0x0F007B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_15_.svg",
+      "width": 1000
+    },
+    "0x0F007C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_20_.svg",
+      "width": 1000
+    },
+    "0x0F007D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_25_.svg",
+      "width": 1000
+    },
+    "0x0F007E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_30_.svg",
+      "width": 1000
+    },
+    "0x0F007F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_35_.svg",
+      "width": 1000
+    },
+    "0x0F0080": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_40_.svg",
+      "width": 1000
+    },
+    "0x0F0081": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_45_.svg",
+      "width": 1000
+    },
+    "0x0F0082": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_50_.svg",
+      "width": 1000
+    },
+    "0x0F0083": {
+      "src": "ClockFaceFatSquare-glyphs/clock_10_55_.svg",
+      "width": 1000
+    },
+    "0x0F0084": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_00_.svg",
+      "width": 1000
+    },
+    "0x0F0085": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_05_.svg",
+      "width": 1000
+    },
+    "0x0F0086": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_10_.svg",
+      "width": 1000
+    },
+    "0x0F0087": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_15_.svg",
+      "width": 1000
+    },
+    "0x0F0088": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_20_.svg",
+      "width": 1000
+    },
+    "0x0F0089": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_25_.svg",
+      "width": 1000
+    },
+    "0x0F008A": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_30_.svg",
+      "width": 1000
+    },
+    "0x0F008B": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_35_.svg",
+      "width": 1000
+    },
+    "0x0F008C": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_40_.svg",
+      "width": 1000
+    },
+    "0x0F008D": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_45_.svg",
+      "width": 1000
+    },
+    "0x0F008E": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_50_.svg",
+      "width": 1000
+    },
+    "0x0F008F": {
+      "src": "ClockFaceFatSquare-glyphs/clock_11_55_.svg",
+      "width": 1000
+    }
+  },
+  "sfnt_names": [
+    ["English (US)", "Copyright", "Copyright (c) 2022-09-26 JLMilkins / Ocodo"],
+    ["English (US)", "Family", "ClockFaceFatSquare"],
+    ["English (US)", "SubFamily", "Regular"],
+    ["English (US)", "UniqueID", "ClockFaceFatSquare 2022-09-26"],
+    ["English (US)", "Fullname", "ClockFaceFatSquare Regular"],
+    ["English (US)", "Version", "Version 001.000"],
+    ["English (US)", "PostScriptName", "ClockFaceFatSquare-Regular"]
+  ],
+  "input": ".",
+  "output": [
+    "ClockFaceFatSquare-Regular.ttf",
+    "ClockFaceFatSquare-Regular.svg",
+    "ClockFaceFatSquare-Regular.woff"
+  ]
+}
