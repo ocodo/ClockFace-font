@@ -1,0 +1,35 @@
+{
+  "props": {
+    "ascent": 750,
+    "descent": 150,
+    "em": 1000,
+    "encoding": "UnicodeFull",
+    "lang": "English (US)",
+    "family": "ClockFaceFatHandsSquareSolid",
+    "style": "Regular",
+    "familyname": "ClockFaceFatHandsSquareSolid",
+    "fontname": "ClockFaceFatHandsSquareSolid-Regular",
+    "fullname": "ClockFaceFatHandsSquareSolid Regular"
+  },
+  "glyphs": {
+    "0x0F0000": {
+      "src": "ClockFaceFatHandsSquareSolid-glyphs/*svg",
+      "width": 1000
+    }
+  },
+  "sfnt_names": [
+    ["English (US)", "Copyright", "Copyright (c) 2022-09-26 JLMilkins / Ocodo"],
+    ["English (US)", "Family", "ClockFaceFatHandsSquareSolid"],
+    ["English (US)", "SubFamily", "Regular"],
+    ["English (US)", "UniqueID", "ClockFaceFatHandsSquareSolid 2022-09-26"],
+    ["English (US)", "Fullname", "ClockFaceFatHandsSquareSolid Regular"],
+    ["English (US)", "Version", "Version 001.000"],
+    ["English (US)", "PostScriptName", "ClockFaceFatHandsSquareSolid-Regular"]
+  ],
+  "input": ".",
+  "output": [
+    "ClockFaceFatHandsSquareSolid-Regular.ttf",
+    "ClockFaceFatHandsSquareSolid-Regular.svg",
+    "ClockFaceFatHandsSquareSolid-Regular.woff"
+  ]
+}

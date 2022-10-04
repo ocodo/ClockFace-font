@@ -116,8 +116,8 @@ FRAME-ID must be supplied when using SOLID."
         "Converting glyphs "
       (if solid
           (progn
-           (strokes-to-path-difference))
-       (strokes-to-combined-path it)))))
+           (strokes-to-path-difference glyph))
+       (strokes-to-combined-path glyph)))))
 
 (defun strokes-to-combined-path (svg-file)
   "Use inkscape to convert strokes in SVG-FILE to a single combined path."
@@ -155,9 +155,39 @@ Remove original construction glyphs from FOLDER."
 
 (when nil
   (progn
-    (let ((glyph-folder "../ClockFaceFatHandsSolid-glyphs/"))
+    (let ((glyph-folder "../ClockFaceFatSolid-glyphs/"))
       (generate-clock-faces
        `(:clock-face-template-filename "./clockface-solid.template"
+         :hands-template-filename "./hands-fat.template"
+         :hour-radius 140
+         :minute-radius 210
+         :glyph-directory ,glyph-folder))
+      (convert-glyphs-for-ttf glyph-folder t)
+      (cleanup-glyph-folder glyph-folder))
+
+    (let ((glyph-folder "../ClockFaceFatSquareSolid-glyphs/"))
+      (generate-clock-faces
+       `(:clock-face-template-filename "./clockface-square-solid.template"
+         :hands-template-filename "./hands-fat.template"
+         :hour-radius 140
+         :minute-radius 210
+         :glyph-directory ,glyph-folder))
+      (convert-glyphs-for-ttf glyph-folder t)
+      (cleanup-glyph-folder glyph-folder))
+
+    (let ((glyph-folder "../ClockFaceSquareSolid-glyphs/"))
+      (generate-clock-faces
+       `(:clock-face-template-filename "./clockface-square-solid.template"
+         :hands-template-filename "./hands.template"
+         :hour-radius 150
+         :minute-radius 230
+         :glyph-directory ,glyph-folder))
+      (convert-glyphs-for-ttf glyph-folder t)
+      (cleanup-glyph-folder glyph-folder))
+
+    (let ((glyph-folder "../ClockFaceFatRectSolid-glyphs/"))
+      (generate-clock-faces
+       `(:clock-face-template-filename "./clockface-rect-solid.template"
          :hands-template-filename "./hands-fat.template"
          :hour-radius 140
          :minute-radius 210
@@ -175,10 +205,20 @@ Remove original construction glyphs from FOLDER."
       (convert-glyphs-for-ttf glyph-folder t)
       (cleanup-glyph-folder glyph-folder))
 
+    (let ((glyph-folder "../ClockFaceFatRect-glyphs/"))
+      (generate-clock-faces
+       `(:clock-face-template-filename "./clockface-fat-rect.template"
+         :hands-template-filename "./hands-fat.template"
+         :hour-radius 140
+         :minute-radius 210
+         :glyph-directory ,glyph-folder))
+      (convert-glyphs-for-ttf glyph-folder)
+      (cleanup-glyph-folder glyph-folder))
+
     (let ((glyph-folder "../ClockFaceSquare-glyphs/"))
       (generate-clock-faces
        `(:clock-face-template-filename "./clockface-square.template"
-         :hands-template-filename "./hands-square.template"
+         :hands-template-filename "./hands.template"
          :hour-radius 150
          :minute-radius 230
          :glyph-directory ,glyph-folder))

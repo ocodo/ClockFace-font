@@ -28,8 +28,8 @@
        id="g4">
       <path
          id="clock_00_05"
-         style="color:#000000;fill:#ffffff;stroke-linecap:square;stroke-linejoin:round;-inkscape-stroke:none"
-         d="m 0,-30 a 30.003,30.003 0 0 0 -15,55.980469 l 199.18555,115.000001 25.98047,15 30,-51.96094 L 214.18555,89.019531 111.96094,30 H 150 180 v -60 h -30 z m 371,-341 h -30 -710 v 740 h 740 z m -60,60 v 620 h -620 v -620 z" />
+         style="color:#000000;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="M 0,-30 A 30.003,30.003 0 0 0 -15,25.980469 L 184.18555,140.98047 A 30,30 0 0 0 225.16602,130 30,30 0 0 0 214.18555,89.019531 L 111.96094,30 H 150 A 30,30 0 0 0 180,0 30,30 0 0 0 150,-30 Z m 371,-341 h -30 -710 v 740 h 740 z m -60,60 v 620 h -620 v -620 z" />
     </g>
   </g>
 </svg>
