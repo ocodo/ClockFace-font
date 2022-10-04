@@ -110,11 +110,14 @@ When SOLID is nil, we combine the paths created by inkscape stroke-to-path, into
 
 SOLID non-nil, create clock using hands path subtracted from face path.
 FRAME-ID must be supplied when using SOLID."
-  (--each (f--entries folder (string-match-p ".*svg$" it))
-    (if solid
-        (progn
-         (strokes-to-path-difference it))
-     (strokes-to-combined-path it))))
+  (let ((glyphs (f--entries folder (string-match-p ".*svg$" it))))
+    (dolist-with-progress-reporter
+        (glyph glyphs)
+        "Converting glyphs "
+      (if solid
+          (progn
+           (strokes-to-path-difference))
+       (strokes-to-combined-path it)))))
 
 (defun strokes-to-combined-path (svg-file)
   "Use inkscape to convert strokes in SVG-FILE to a single combined path."

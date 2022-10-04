@@ -3,14 +3,7 @@
 WIDTH=${1:-1000}
 UNICODE_START=${2:-0xF0000}
 
-for font in "" Solid Rect RectSolid FatHands FatSquare Square;
+for font in "--" Solid Rect RectSolid FatHands FatSquare Square FatHandsSolid;
 do
-echo "════ [${font}] ═════════════════════════════════════"
-bin/make_json "ClockFace${font}-glyphs" ${WIDTH} ${UNICODE_START} "ClockFace${font}" > "ClockFace${font}-temp.json"
-
-# Fix trailing array comma with prettier
-npm exec prettier "ClockFace${font}-temp.json" > "ClockFace${font}.json"
-rm "ClockFace${font}-temp.json"
-
-bin/svgs2ttf "ClockFace${font}.json"
+bin/make_font $font $WIDTH $UNICODE_START
 done
