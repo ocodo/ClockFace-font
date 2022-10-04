@@ -153,12 +153,12 @@ FRAME-ID must be supplied when using SOLID."
         (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))
      (shell-command (s-join " " `(,inkscape-command ,inkscape-actions ,svg-file)))))
 
-(defun strokes-to-path-difference (svg-file frame-id)
+(defun strokes-to-path-difference (svg-file)
   "Use inkscape to convert strokes in SVG-FILE to a single combined path."
-  (let ((inkscape-actions (format "--actions=\"select-all:groups;
+  (let ((inkscape-actions "--actions=\"select-all:groups;
                         object-stroke-to-path;
                         select-clear;
-                        select-by-id:%s;
+                        select-by-id:frame;
                         selection-ungroup;
                         path-union;
                         selection-bottom;
@@ -166,7 +166,7 @@ FRAME-ID must be supplied when using SOLID."
                         selection-ungroup;
                         selection-ungroup;
                         path-difference;
-                        export-do\"" frame-id))
+                        export-do\"")
         (inkscape-command "/Applications/Inkscape.app/Contents/MacOS/inkscape"))
      (shell-command (s-join " " `(,inkscape-command ,inkscape-actions ,svg-file)))))
 
